@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
     float hours,rate,pay;
     //Input Values Here
     hours=40.0f;//Hours Worked Units = hours
-    rate=9.0f; //Pay Rate     Units = $'s/hour
+    rate=9e0f; //Pay Rate     Units = $'s/hour
     //Process Input Here
     pay=hours*rate;//Units = $'s
     //Output Unknowns Here
