@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
     unsigned short cSurv=12467;//Number of customers surveyed
     unsigned short nEDrnks;    //Number of customers drinking 1 or more energy drinks per week
     unsigned short nCDrnks;    //Number of energy drinkers that prefer citrus flavor
-    unsigned char pEDrnks=14;  //Percentage surveyed that prefer energy drinks
+    unsigned char pEDrnks=18;  //Percentage surveyed that prefer energy drinks
     unsigned char pCDrnks=64;  //Percentage of energy drinkers that prefer citrus flavor
     //Calculate the number of Drinkers
     nEDrnks=cSurv*pEDrnks/CNVPCT;
